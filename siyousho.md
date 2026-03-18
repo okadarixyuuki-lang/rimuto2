@@ -29,3 +29,17 @@ css
 .bull
 
 
+htmlファイル
+<div id = score></div>
+<div id = fiald></div>
+<div id = hand></div>
+
+
+
+#fiald
+#score
+#hand
+.row
+.card
+.number
+.bull
