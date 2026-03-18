@@ -9,3 +9,17 @@
 - []  css
 - []  javascript
 
+htmlファイル
+<div id = score></div>
+<div id = fiald></div>
+<div id = hand></div>
+
+
+css
+#fiald
+#score
+#hand
+.row
+.card
+.number
+.bull
