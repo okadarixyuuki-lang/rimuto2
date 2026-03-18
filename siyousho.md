@@ -35,7 +35,7 @@ htmlファイル
 <div id = hand></div>
 
 
-
+css
 #fiald
 #score
 #hand
