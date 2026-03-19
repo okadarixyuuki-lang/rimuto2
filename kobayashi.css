@@ -1,0 +1,100 @@
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background: #77DF6D;
+  
+}
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+
+}
+
+
+
+
+
+.footer-inner {
+  
+
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.main::-webkit-scrollbar {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background: #77DF6D;
+ margin: 0;
+
+
+}
+
+
+
+.hand {
+  display: flex; /* これだけで横並びに! */
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+
+  padding: 50px;
+  text-align: center;
+
+
+}
+
+
+
+footer {
+  position: 
+  fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e0e713;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+.box {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  width: 120px;
+  height: 180px;
+  background-color: #3498db;
+ 
+  margin: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.box::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
