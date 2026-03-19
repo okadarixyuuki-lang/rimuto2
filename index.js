@@ -24,7 +24,7 @@ function createDeckel(card){
 
 
 function hyoujifiald() {
-    fiald.innerHTML = '';
+    f.innerHTML = '';
 
     fiald.forEach(row => {
         const div = document.createElement('div');
@@ -40,5 +40,18 @@ function hyoujifiald() {
 }
 
 function hyoujihand(){
-    
+    h.innerHTML = '';
+
+    player[0].forEach((card,index) => {
+        let c = createDeckel(card);
+
+        c.onclock=()=>{
+            onCard(index);
+            nextTrun();
+        };
+
+        h.appendChild(c);
+    });
 }
+
+
