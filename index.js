@@ -4,6 +4,7 @@ fiald = [[],[],[],[]];
 play = [];
 
 const f = document.getElementById('fiald');
+const h = document.getElementById('hand');
 
 function createDeckel(card){
     const el = document.createElement('div');
@@ -38,5 +39,6 @@ function hyoujifiald() {
     });
 }
 
-
-
+function hyoujihand(){
+    
+}
