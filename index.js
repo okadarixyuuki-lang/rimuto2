@@ -54,4 +54,9 @@ function hyoujihand(){
     });
 }
 
+function onCard(card, player) {
+    let cleanedArray = field[i].filter(item => item !== null);
+    let last = cleanedArray[cleanedArray.length - 1];
+}
+
 
