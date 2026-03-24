@@ -197,3 +197,5 @@ let deck = [];
       renderHand();
       updateScoreboard();
     }
+
+    initGame();
