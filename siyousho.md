@@ -61,4 +61,5 @@ hyoujihand()　場のカード表示　片山 済
 cpuplay()　　　自動操作
 nextTrun()　　　次の人のターンを表示
 onCard()　　　　カードを置く処理
+endgame()
 
