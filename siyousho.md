@@ -54,8 +54,8 @@ javascript
 createDeckel()　カード情報のデザイン　　片山　済
 createDeck() 返り値　deck[{number i, bull}]　　岡田
 shahullDeck() 返り値　混ざったdecck[]　　岡田
-playergivrd()　カード配布　　渡辺
-setupard()　　　場にカード初期配置 渡辺
+playergivrd()　カード配布　　渡辺 済
+setupard()　　　場にカード初期配置 渡辺　済
 hyoujifiald() 手札表示　　片山  済
 hyoujihand()　場のカード表示　片山 済
 cpuplay()　　　自動操作
