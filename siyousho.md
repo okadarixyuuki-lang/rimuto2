@@ -38,8 +38,34 @@ htmlファイル
 css
 #fiald
 #score
+
 #hand
 .row
 .card
 .number
 .bull
+
+deck = []
+player = [[],[],[],[]]
+fiald = [[],[],[],[]]
+play = []
+
+javascript
+createDeckel()　カード情報のデザイン　　片山　済
+createDeck() 返り値　deck[{number i, bull}]　　岡田
+shahullDeck() 返り値　混ざったdecck[]　　岡田
+playergivrd()　カード配布　　渡辺
+setupard()　　　場にカード初期配置 渡辺
+hyoujifiald() 手札表示　　片山  済
+hyoujihand()　場のカード表示　片山 済
+cpuplay()　　　自動操作
+nextTrun()　　　次の人のターンを表示
+onCard()　　　　カードを置く処理
+endgame()
+
+PS C:\Users\nyanm\OneDrive\Desktop\AAA>
+PS C:\Users\nyanm\OneDrive\Desktop\AAA> git pull origin main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\nyanm\OneDrive\Desktop\AAA> git pull origin main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\nyanm\OneDrive\Desktop\AAA> 
