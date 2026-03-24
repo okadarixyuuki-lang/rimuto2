@@ -1,0 +1,81 @@
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  margin: 0;
+  background: #77DF6D;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+#field {
+  padding: 20px;
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  background: #e0e713;
+}
+
+.card {
+  width: 120px;
+  height: 170px;
+  border: 3px solid black;
+  border-radius: 12px;
+  background: white;
+
+  position: relative;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  transition: 0.2s;
+
+  background: linear-gradient(white, #f5f5f5);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.number {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 40px;
+  font-weight: bold;
+
+  text-shadow: 1px 1px 2px gray;
+}
+
+.bull {
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
