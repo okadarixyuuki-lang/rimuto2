@@ -208,3 +208,5 @@ function initGame() {
   renderHand();
   updateScoreboard();
 }
+
+window.onload = initGame;
